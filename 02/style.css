@@ -1,0 +1,120 @@
+.grid-container{
+    display: grid;
+    align-content: center;
+    grid-gap: 10px 10px ;
+    /*height: 930px;
+    width: 1100px;
+
+     */
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 70px 300px ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -465px 0 0 -550px;
+}
+.item1 {
+    text-align: center;
+    height: 100px;
+    font-size: 24px;
+    font-family: "fangsong";
+    background: linear-gradient(to right, cornflowerblue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.item2 {
+    height: 100px;
+}
+
+
+.col1 {
+    background-color: #999999;
+}
+
+td {
+
+    /*background-color: #f0f0f0;
+
+     */
+    height: 70px;
+    text-align: center;
+
+}
+
+td {
+    background-color: whitesmoke;
+}
+
+table {
+    display: inline;
+    float: left;
+}
+
+
+.row1 td {
+    background-color: #999999;
+    height: 30px;
+
+}
+
+.c1 {
+    width: 20px;
+    height: 100px;
+    background-color: #FFC125;
+    color: #5E2612;
+}
+
+#left-top {
+    border-top-left-radius: 10px;
+}
+#right-top {
+    border-top-right-radius: 10px;
+}
+#left-bottom {
+    border-bottom-left-radius: 10px;
+}
+#right-bottom {
+    border-bottom-right-radius: 10px;
+}
+
+.col2 {
+    display: inline;
+    float: left;
+    display: inherit;
+    margin-left: 50px;
+
+    font-family: Algerian;
+    color: purple;
+    font-size: 16px;
+}
+
+.loc {
+
+    font-size: small;
+}
+
+.course {
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+body {
+    background: linear-gradient(to right, cornflowerblue, pink);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

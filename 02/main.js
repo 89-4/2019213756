@@ -134,11 +134,25 @@ document.getElementById('win1').addEventListener('mouseout', function (){
 })
 
 let date = new Date();
+let org = new Date();
+org.setFullYear(2021);
+
+org.setMonth(11);
+org.setDate(12);
+
+
+let w = Math.floor((date.getTime()-org.getTime())/86400000/7);
+w += 16;
+
+
+document.getElementById('week').innerHTML = `WEEK ${w}`
+/*
+let date = new Date();
 let org = new Date(2021,11,15,0,0,0);
 let w = Math.floor((org.getTime()-date.getTime())/(7*604800000) );
 w +=12;
 document.getElementById('week').innerHTML = `WEEK ${w}`
-
+*/
 
 
 
